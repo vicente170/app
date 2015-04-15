@@ -1,4 +1,5 @@
 App::Application.routes.draw do
+  root 'welcome#index'
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.

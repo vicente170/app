@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: app_production
   pool: 5
-  username: app
-  password:
+  username: vicente
+  password: zaraki
