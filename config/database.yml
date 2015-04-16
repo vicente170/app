@@ -19,8 +19,8 @@ development:
   encoding: unicode
   database: app_development
   pool: 5
-  username: vicente
-  password: zaraki
+  username: postgres
+  password: livingweb
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +48,13 @@ test:
   encoding: unicode
   database: app_test
   pool: 5
-  username: vicente	
-  password: zaraki
+  username: postgres	
+  password: livingweb
 
 production:
   adapter: postgresql
   encoding: unicode
   database: app_production
   pool: 5
-  username: vicente
-  password: zaraki
+  username: postgres
+  password: livingweb
